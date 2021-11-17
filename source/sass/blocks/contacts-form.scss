@@ -1,0 +1,111 @@
+.contacts-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width:100%;
+
+  button {
+    width:170px;
+    height:50px;
+    align-self: flex-end;
+    outline: none;
+    border:none;
+    background-color: $main;
+    color:#fff;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: $lato;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 10px 10px 20px rgba(51, 51, 255,.2);
+    }
+  }
+}
+
+.contacts-form__wrapper {
+  display: flex;
+  margin:0 0 30px 0;
+
+  textarea {
+    width:100%;
+    max-height:160px;
+    box-sizing: border-box;
+    padding:15px;
+    resize: none;
+    outline: none;
+    border:solid 2px $border;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color:$text-dark;
+    font-size: 14px;
+    font-family: $lato;
+    line-height: 20px;
+    font-weight: 700;
+
+    &:hover {
+      border:solid 2px $main;
+    }
+  }
+
+  textarea::placeholder {
+    font-size: 14px;
+    font-family: $lato;
+    line-height: 20px;
+  }
+
+  @media (max-width: $mobile-width-only) {
+    flex-direction: column;
+  }
+}
+
+.contacts-form__wrapper-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin:0 30px 0 0;
+
+  label {
+    display: none;
+  }
+
+  input {
+    width:270px;
+    height:60px;
+    outline: none;
+    border:solid 2px $border;
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding:15px;
+    font-size: 14px;
+    font-family: $lato;
+    line-height: 20px;
+    color:$text-dark;
+    font-weight: 700;
+
+    &:hover {
+      border:solid 2px $main;
+    }
+  }
+
+  @media (max-width: $mobile-width-only) {
+    margin:0 0 20px;
+
+    input {
+      width:100%;
+    }
+
+    input:first-of-type {
+      margin:0 0 20px 0;
+    }
+  }
+
+  input::placeholder {
+    font-size: 14px;
+    font-family: $lato;
+    line-height: 20px;
+    font-weight: 700;
+  }
+}

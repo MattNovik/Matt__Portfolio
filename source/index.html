@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Matt Novik Portfolio">
+    <title>Matt.</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="preload" href="fonts/lato-bold.woff" as="font" type="font/woff" crossorigin >
+    <link rel="preload" href="fonts/lato-bold.woff2" as="font" type="font/woff2" crossorigin >
+    <link rel="preload" href="fonts/roboto-regular.woff" as="font" type="font/woff" crossorigin >
+    <link rel="preload" href="fonts/roboto-regular.woff2" as="font" type="font/woff2" crossorigin >
+    <link rel="preload" href="fonts/roboto-italic.woff" as="font" type="font/woff" crossorigin >
+    <link rel="preload" href="fonts/roboto-italic.woff2" as="font" type="font/woff2" crossorigin >
+    <link rel="manifest" href="manifest.webmanifest" crossorigin="use-credentials">
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+<body class="page">
+  <header class="page-header">
+    <div class="page-header__container">
+      <div class="logo">
+        <picture>
+          <!-- 1x: 64x64; 2x: 128x128 -->
+          <source srcset="img/logo.webp 1x, img/logo@2x.webp 2x" type="image/webp">
+          <img  src="img/logo.png" srcset="img/logo.png 1x, img/logo@2x.png 2x" alt="logo" width="64" height="64">
+        </picture>
+        <span>Matt.</span>
+      </div>
+      <nav class="menu menu--desktop">
+        <ul class="menu__list">
+          <li class="menu__list-element"><a href="#hello">Hello</a></li>
+          <li class="menu__list-element"><a href="#skills">skills</a></li>
+          <li class="menu__list-element"><a href="#education">education</a></li>
+          <li class="menu__list-element"><a href="#portfolio">portfolio</a></li>
+          <li class="menu__list-element"><a href="#contactme">contact me</a></li>
+        </ul>
+      </nav>
+      <nav class="menu menu--mob">
+        <ul class="menu__list">
+          <li class="menu__list-element"><a href="#hello">Hello</a></li>
+          <li class="menu__list-element"><a href="#skills">skills</a></li>
+          <li class="menu__list-element"><a href="#education">education</a></li>
+          <li class="menu__list-element"><a href="#portfolio">portfolio</a></li>
+          <li class="menu__list-element"><a href="#contactme">contact me</a></li>
+        </ul>
+      </nav>
+      <span class="page-header__container-menu-toggle"></span>
+    </div>
+  </header>
+  <main class="page-main">
+    <div class="page-main__overlay"></div>
+    <section class="hello" id="hello">
+      <div class="container container--hello">
+        <div class="info">
+          <h1>Привет! Я Новик Матвей</h1>
+          <p>
+            Я Frontend-разработчик. Живу и работаю в СПб.
+            Сейчас нахожусь в поисках работы и с удовольствием рассмотрю ваше предложение по работе!
+          </p>
+          <div class="info__contacts">
+            <div class="info__contacts-container">
+              <p class="info__contacts-title">Телефон</p>
+              <a href="tel:79310022730" class="info__contacts-info">+7 (931) 00-22-730</span>
+            </div>
+            <div class="info__contacts-container">
+              <p class="info__contacts-title">Почта</p>
+              <a href="mailto:matvej.novik@gmail.com" class="info__contacts-info">matvej.novik@gmail.com</a>
+            </div>
+            <div class="info__contacts-container">
+              <p class="info__contacts-title">Адрес</p>
+              <p class="info__contacts-info">Санкт-Петербург</p>
+            </div>
+            <div class="info__contacts-container">
+              <p class="info__contacts-title">Сети</p>
+              <ul class="info__contacts-social">
+                <li>
+                  <a href="#">
+                    <svg height="13" width="15" viewBox="0 0 15 13"><use xlink:href="img/sprite_auto.svg#icon-twit"></use></svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg height="24" width="24" viewBox="0 0 24 24"><use xlink:href="img/sprite_auto.svg#icon-github"></use></svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="info__buttons-links">
+            <a href="#" class="info__anchor-contacts">Найти меня</a>
+            <a href="#" class="info__anchor-cv">резюме</a>
+          </div>
+        </div>
+        <div class="photo">
+          <picture>
+            <!-- 1x: 570x320; 2x: 1140x640 -->
+            <source srcset="img/me-photo.webp 1x, img/me-photo@2x.webp 2x" type="image/webp">
+            <img  src="img/me-photo.jpg" srcset="img/me-photo.jpg 1x, img/me-photo@2x.jpg 2x" alt="logo" width="570" height="320">
+          </picture>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="container__info">
+          <h2>Skills.</h2>
+          <p>
+            Меня вдохновляет создание прекрасных работ с людьми, которые так же страстно увлечены созданием чего-то потрясающего.
+          </p>
+          <svg width="316" height="284" viewBox="0 0 316 284"><use xlink:href="img/sprite_auto.svg#icon-brain"></use></svg>
+        </div>
+        <div class="container__list">
+          <div class="container__list-element">
+            <h3>Frontend Разработка</h3>
+            <p>HTML, CSS, JavaScript(Jquery, Vanila, ES6), LESS, SASS, Stylus, Node.js, Git, Gulp   </p>
+          </div>
+          <div class="container__list-element">
+            <h3>UI/UX</h3>
+            <p>Photoshop, Sketch, Figma, User Research, SEO</p>
+          </div>
+          <div class="container__list-element">
+            <h3>Soft skills</h3>
+            <p>Коммуникативность, Критическое мышление, Управление проектам (опыт руководства), Креативность, Лидерство</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="education" id="education">
+      <div class="container">
+        <div class="container__info">
+          <h2>Education.</h2>
+          <p>
+            Всю свою жизнь мной двигало твердое убеждение, что образование важно. Я стараюсь изучать что-то новое каждый день.
+          </p>
+          <svg width="316" height="284" viewBox="0 0 316 284"><use xlink:href="img/sprite_auto.svg#icon-brain"></use></svg>
+        </div>
+        <div class="container__list container__list--experience">
+          <div class="container__list-element container__list-element--experience">
+            <h3>htmlacademy</h3>
+            <p>Январь, 2021 - Июль, 2021</p>
+            <p>Укрепил и систематизировал свои знания и умения в HTML-верстке. Получил опыт коммерческой раработки проекто в команде. Освоил JS(Jquery, Vanila, ES6) на уровне начинающего (написание своих скриптов, работа с библиотеками и DOM).</p>
+          </div>
+          <div class="container__list-element container__list-element--experience">
+            <h3>freecodecamp, Codewars, leetcode</h3>
+            <p>Август, 2020 - Сейчас</p>
+            <p>Отрабатываю и развиваю навыки HTML, CSS, JS</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="container container--portfolio">
+        <h2>Portfolio.</h2>
+        <div class="container__portfolio">
+          <a href="https://mattnovik.github.io/Novik_bicycle/build/"  class="container__portfolio-element" target="_blank">
+            <picture>
+              <!-- 1x: 270x270; 2x: 540x540 -->
+              <source srcset="img/portfolio/bicycle.webp 1x, img/portfolio/bicycle@2x.webp 2x" type="image/webp">
+              <img  src="img/portfolio/bicycle.jpg" srcset="img/portfolio/bicycle.jpg 1x, img/portfolio/bicycle@2x.jpg 2x" alt="bicycle" width="270" height="270">
+            </picture>
+            <p>Bicycle Shop</p>
+            <p>Август, 2021</p>
+          </a>
+          <a href="https://mattnovik.github.io/Novik_Jewellery/build/main" class="container__portfolio-element" target="_blank">
+            <picture>
+              <!-- 1x: 270x270; 2x: 540x540 -->
+              <source srcset="img/portfolio/jewellery.webp 1x, img/portfolio/jewellery@2x.webp 2x" type="image/webp">
+              <img  src="img/portfolio/jewellery.jpg" srcset="img/portfolio/jewellery.jpg 1x, img/portfolio/jewellery@2x.jpg 2x" alt="jewellery" width="270" height="270">
+            </picture>
+            <p>Jewellery</p>
+            <p>Октябрь, 2021</p>
+          </a>
+          <a href="https://mattnovik.github.io/Novik_SmartDevice/build/"  class="container__portfolio-element" target="_blank">
+            <picture>
+              <!-- 1x: 270x270; 2x: 540x540 -->
+              <source srcset="img/portfolio/smart-device.webp 1x, img/portfolio/smart-device@2x.webp 2x" type="image/webp">
+              <img  src="img/portfolio/smart-device.jpg" srcset="img/portfolio/smart-device.jpg 1x, img/portfolio/smart-device@2x.jpg 2x" alt="smart-device" width="270" height="270">
+            </picture>
+            <p>Smart Device</p>
+            <p>Сентябрь, 2021</p>
+          </a>
+          <a href="https://mattnovik.github.io/Novik_euro-trip/source/"  class="container__portfolio-element" target="_blank">
+            <picture>
+              <!-- 1x: 270x270; 2x: 540x540 -->
+              <source srcset="img/portfolio/trip.webp 1x, img/portfolio/trip@2x.webp 2x" type="image/webp">
+              <img  src="img/portfolio/trip.jpg" srcset="img/portfolio/trip.jpg 1x, img/portfolio/trip@2x.jpg 2x" alt="trip" width="270" height="270">
+            </picture>
+            <p>Euro-trip</p>
+            <p>Август, 2021</p>
+          </a>
+          <a href="https://mattnovik.github.io/669139-cat-energy-22/build/" class="container__portfolio-element" target="_blank">
+            <picture>
+              <!-- 1x: 270x270; 2x: 540x540 -->
+              <source srcset="img/portfolio/cat-shop.webp 1x, img/portfolio/cat-shop@2x.webp 2x" type="image/webp">
+              <img  src="img/portfolio/cat-shop.jpg" srcset="img/portfolio/cat-shop.jpg 1x, img/portfolio/cat-shop@2x.jpg 2x" alt="cat-shop" width="270" height="270">
+            </picture>
+            <p>Cat-shop</p>
+            <p>Июнь, 2021</p>
+          </a>
+          <a href="https://mattnovik.github.io/669139-device-30/"  class="container__portfolio-element" target="_blank">
+            <picture>
+              <!-- 1x: 270x270; 2x: 540x540 -->
+              <source srcset="img/portfolio/device.webp 1x, img/portfolio/device@2x.webp 2x" type="image/webp">
+              <img  src="img/portfolio/device.jpg" srcset="img/portfolio/device.jpg 1x, img/portfolio/device@2x.jpg 2x" alt="device" width="270" height="270">
+            </picture>
+            <p>Device</p>
+            <p>Апрель, 2021</p>
+          </a>
+          <a href="https://mattnovik.github.io/669139-keksobooking-23/"  class="container__portfolio-element" target="_blank">
+            <picture>
+              <!-- 1x: 270x270; 2x: 540x540 -->
+              <source srcset="img/portfolio/booking.webp 1x, img/portfolio/booking@2x.webp 2x" type="image/webp">
+              <img  src="img/portfolio/booking.jpg" srcset="img/portfolio/booking.jpg 1x, img/portfolio/booking@2x.jpg 2x" alt="booking" width="270" height="270">
+            </picture>
+            <p>Booking</p>
+            <p>Июль, 2021</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer" id="contactme">
+    <div class="container">
+      <div class="container__info">
+        <h2>Contacts.</h2>
+        <p>
+          Вам нужна помощь в создании вашего проекта? Я хотел бы помочь сделать это! Позвоните или напишите мне письмо и мы начнём работу прямо сейчас! Просто сделайте это.
+        </p>
+
+      </div>
+      <form method="post" enctype="multipart/form-data" autocomplete="off" class="contacts-form">
+        <div class="contacts-form__wrapper">
+          <div class="contacts-form__wrapper-name">
+            <input type="text" placeholder="Ваше Имя" id="name">
+            <label for="name"></label>
+            <input type="email" placeholder="Ваша почта" id="email">
+            <label for="email"></label>
+          </div>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Сообщение"></textarea>
+        </div>
+        <button>Отправить</button>
+      </form>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
