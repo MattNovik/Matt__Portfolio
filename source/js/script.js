@@ -1,8 +1,14 @@
 'use strict';
 (function() {
+  var contactsForm = document.querySelector('.contacts-form');
   var menuMobOpener = document.querySelector('.page-header__container-menu-toggle');
   var menuMob = document.querySelector('.menu--mob');
   var pageOverlay = document.querySelector('.page-main__overlay');
+
+  contactsForm.addEventListener('submit', (evt)=> {
+    evt.preventDefault();
+    contactsForm.reset();
+  });
 
   menuMobOpener.addEventListener('click', (evt) => {
     menuMobOpener.classList.toggle('page-header__container-menu-toggle--opened');

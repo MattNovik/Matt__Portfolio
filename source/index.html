@@ -56,9 +56,9 @@
     <section class="hello" id="hello">
       <div class="container container--hello">
         <div class="info">
-          <h1>Привет! Я Новик Матвей</h1>
+          <h1>Привет! Я Frontend-разработчик Матвей</h1>
           <p>
-            Я Frontend-разработчик. Живу и работаю в СПб.
+            Живу и работаю в Санкт-Петербурге.
             Сейчас нахожусь в поисках работы и с удовольствием рассмотрю ваше предложение по работе!
           </p>
           <div class="info__contacts">
@@ -78,21 +78,26 @@
               <p class="info__contacts-title">Сети</p>
               <ul class="info__contacts-social">
                 <li>
-                  <a href="#">
-                    <svg height="13" width="15" viewBox="0 0 15 13"><use xlink:href="img/sprite_auto.svg#icon-twit"></use></svg>
+                  <a href="https://github.com/MattNovik" target="_blank">
+                    <svg height="24" width="24" viewBox="0 0 24 24"><use xlink:href="img/sprite_auto.svg#icon-github"></use></svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <svg height="24" width="24" viewBox="0 0 24 24"><use xlink:href="img/sprite_auto.svg#icon-github"></use></svg>
+                  <a href="https://www.linkedin.com/in/%D0%BC%D0%B0%D1%82%D0%B2%D0%B5%D0%B9-%D0%BD%D0%BE%D0%B2%D0%B8%D0%BA-ab0b261b3/" target="_blank">
+                    <svg height="24" width="24" viewBox="0 0 24 24"><use xlink:href="img/sprite_auto.svg#icon-linkedin"></use></svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/lookdur" target="_blank">
+                    <svg height="13" width="15" viewBox="0 0 15 13"><use xlink:href="img/sprite_auto.svg#icon-twit"></use></svg>
                   </a>
                 </li>
               </ul>
             </div>
           </div>
           <div class="info__buttons-links">
-            <a href="#" class="info__anchor-contacts">Найти меня</a>
-            <a href="#" class="info__anchor-cv">резюме</a>
+            <a href="https://spb.hh.ru/applicant/resumes/view?resume=ea19f073ff09727ed80039ed1f37486e4c4c64" class="info__anchor-contacts" target="_blank">Найти меня</a>
+            <a href="./Matt_Novik_CV.pdf" class="info__anchor-cv" target="_blank">резюме</a>
           </div>
         </div>
         <div class="photo">
@@ -109,14 +114,14 @@
         <div class="container__info">
           <h2>Skills.</h2>
           <p>
-            Меня вдохновляет создание прекрасных работ с людьми, которые так же страстно увлечены созданием чего-то потрясающего.
+            Меня вдохновляет создание интересных работ с людьми, которые так же страстно увлечены созданием чего-то потрясающего.
           </p>
           <svg width="316" height="284" viewBox="0 0 316 284"><use xlink:href="img/sprite_auto.svg#icon-brain"></use></svg>
         </div>
         <div class="container__list">
           <div class="container__list-element">
             <h3>Frontend Разработка</h3>
-            <p>HTML, CSS, JavaScript(Jquery, Vanila, ES6), LESS, SASS, Stylus, Node.js, Git, Gulp   </p>
+            <p>HTML, CSS, JavaScript (Jquery, Vanila, ES6), LESS, SASS, Stylus, Node.js, Git, Gulp   </p>
           </div>
           <div class="container__list-element">
             <h3>UI/UX</h3>
@@ -124,7 +129,7 @@
           </div>
           <div class="container__list-element">
             <h3>Soft skills</h3>
-            <p>Коммуникативность, Критическое мышление, Управление проектам (опыт руководства), Креативность, Лидерство</p>
+            <p>Коммуникативность, Критическое мышление, Управление проектами (опыт руководства), Креативность, Лидерство</p>
           </div>
         </div>
       </div>
@@ -142,7 +147,7 @@
           <div class="container__list-element container__list-element--experience">
             <h3>htmlacademy</h3>
             <p>Январь, 2021 - Июль, 2021</p>
-            <p>Укрепил и систематизировал свои знания и умения в HTML-верстке. Получил опыт коммерческой раработки проекто в команде. Освоил JS(Jquery, Vanila, ES6) на уровне начинающего (написание своих скриптов, работа с библиотеками и DOM).</p>
+            <p>Укрепил и систематизировал свои знания и умения в HTML-верстке. Получил опыт коммерческой раработки проекто в команде. Освоил JS (Jquery, Vanila, ES6) на уровне начинающего (написание своих скриптов, работа с библиотеками и DOM).</p>
           </div>
           <div class="container__list-element container__list-element--experience">
             <h3>freecodecamp, Codewars, leetcode</h3>
@@ -235,12 +240,12 @@
       <form method="post" enctype="multipart/form-data" autocomplete="off" class="contacts-form">
         <div class="contacts-form__wrapper">
           <div class="contacts-form__wrapper-name">
-            <input type="text" placeholder="Ваше Имя" id="name">
+            <input type="text" placeholder="Ваше Имя" id="name" required minlength="2">
             <label for="name"></label>
-            <input type="email" placeholder="Ваша почта" id="email">
+            <input type="email" placeholder="Ваша почта" id="email" required>
             <label for="email"></label>
           </div>
-          <textarea name="message" id="message" cols="30" rows="10" placeholder="Сообщение"></textarea>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Сообщение" required></textarea>
         </div>
         <button>Отправить</button>
       </form>
