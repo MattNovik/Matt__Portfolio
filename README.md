@@ -1,7 +1,7 @@
-Matt's Novik Portfolio - Starter Pack edition 1.0
+##Matt's Novik Portfolio - Starter Pack edition 1.0
 Сайт портфолио, для ознакомления с моими работами.
 
-Основные команды для работы
+##Основные команды для работы
 Установка - npm i
 Запуск локального сервера - npm start
 Сборка проекта без запуска локального сервера - npm run-script build
