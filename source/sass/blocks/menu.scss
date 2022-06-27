@@ -12,8 +12,8 @@
     &.menu--opened {
       display: flex;
       position: absolute;
-      width:auto;
-      height:auto;
+      width: auto;
+      height: auto;
       z-index: 15;
       top: 50vh;
       left: 50%;
@@ -31,10 +31,10 @@
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
-  padding:0;
+  padding: 0;
 
   li {
-    margin:0 25px 0 0;
+    margin: 0 25px 0 0;
   }
 
   a {
@@ -44,16 +44,17 @@
     font-weight: 700;
     line-height: 23px;
     color:#000;
+    transition: all .3s ease;
 
     &:hover {
-      color:$main;
+      color: $main;
       text-decoration: underline;
       text-decoration-color: $main;
     }
   }
 
   li:last-of-type {
-    margin:0;
+    margin: 0;
   }
 
   @media (max-width: $tablet-width) {
@@ -62,13 +63,13 @@
     align-items: center;
 
     li {
-      margin:0 0 30px 0;
+      margin: 0 0 30px 0;
     }
 
     a {
       &:hover {
         color:#fff;
-        text-decoration: none
+        text-decoration: none;
       }
     }
   }
